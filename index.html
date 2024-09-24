@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="./assets/logo.png"/>
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="spotify.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300,400,500,600,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        
+         
+             <div class="sidebar">
+                <div class="nav">
+                    <div class="nav-option">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#">Home</a>
+                    </div>
+                    <div class="nav-option" id="av">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a href="#">Search</a>
+                    </div>
+                </div>
+
+
+                <div class="library">
+                    <div class="options">
+                        <div class="lib-option nav-option" id="av">
+                            <img src="./assets/library_icon.png"/>
+                            <a href="#">Your Library</a>
+                        </div>
+                        <div class="icons">
+                            <i class="fa-solid fa-plus"></i>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div class="lib-box">
+                        <div class="box">
+                        <p class="box-p1">Create your first playlist</p>
+                        <p class="box-p2"> It's easy, we'll help you</p>
+                        <button class="badge">Create playlist</button>
+                    </div>
+                    <div class="box">
+                        <p class="box-p1">Let's find some podcasts to follow</p>
+                        <p class="box-p2"> We'll keep you updated on new episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+             <div class="main-content">
+                <div class="sticky-nav">
+                    <div class="sticky-nav-icons">
+                        <img src="./assets/backward_icon (1).png">
+                    <img src="./assets/forward_icon.png" class="hide">
+                    </div>
+                    <div class="sticky-nav-options">
+                        <button class="badge nav-item hide">Explore Premium</button>
+                        <button class="badge nav-item dark-badge"><i class="fa-regular fa-circle-down" style="margin-right: 5px;"></i>Install App</button>
+                        <i class="fa-solid fa-bell nav-item"></i>
+                        <i class="fa-solid fa-circle-user nav-item"></i>
+                    </div>
+                    
+
+                </div>
+                
+                    <h2>Recently Played</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./assets/card1img (1).jpeg" class="card-img">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/tiger.png" class="card-img">
+                            <p class="card-title">Best Romantic Song</p>
+                            <p class="card-info">Dil diyan gallan atif aslam song....</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/workout.png" class="card-img">
+                            <p class="card-title">Top Workout Music</p>
+                            <p class="card-info">Rumors hard workout song...</p>
+                        </div>
+                    </div>
+
+                    
+                    <h2>India's Best</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./assets/best1.png" class="card-img">
+                            <p class="card-title">RAP 91</p>
+                            <p class="card-info">India's Rap Scene. Cover BADSHAH</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/best2.png" class="card-img">
+                            <p class="card-title">RADAR India</p>
+                            <p class="card-info">Most exciting artists from the indian indie scene. Cover: boys...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/best3.png" class="card-img">
+                            <p class="card-title">Bollywood Central</p>
+                            <p class="card-info">Bollywood Central, jab baje toh seedha dil ke centre mein lage...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/best4.png" class="card-img">
+                            <p class="card-title">I-Pop Superhits</p>
+                            <p class="card-info">Biggest hits from your favourite i-pop stars. cover-guru randhawa...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/best5.png" class="card-img">
+                            <p class="card-title">Tollywood Pearls</p>
+                            <p class="card-info">The finest set of Telgu music from the past 10 years. cover:hi nana...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/best6.png" class="card-img">
+                            <p class="card-title">india india</p>
+                            <p class="card-info">Best of the indian indie scene. Cover-hansika pareek...</p>
+                        </div>
+                    </div>
+
+                    <h2>Trending now near you</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./assets/card2img (1).jpeg" class="card-img">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card3img (1).jpeg" class="card-img">
+                            <p class="card-title">Top 50 - Mixes</p>
+                            <p class="card-info">A lot's of song by the different singer...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/card4img (1).jpeg" class="card-img">
+                            <p class="card-title">Top 50 - Search</p>
+                            <p class="card-info">Your daily updates of the most searchable song...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/khesari.png" class="card-img">
+                            <p class="card-title">Top-Khesari song</p>
+                            <p class="card-info">hits bojhpuri song of khesari lal yadav...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/nirahua.png" class="card-img">
+                            <p class="card-title">Top 50 - Hits</p>
+                            <p class="card-info">Maroon kalar sariya  one of the hits song in bojhpuri...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/pawan.png" class="card-img">
+                            <p class="card-title">Top-Pawan singh</p>
+                            <p class="card-info">Top hits song of pawan singh...</p>
+                        </div>
+
+                        <div class="card">
+                            <img src="./assets/akshra.png" class="card-img">
+                            <p class="card-title">Top-Akshra singh</p>
+                            <p class="card-info">Top hits song of akshra singh...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/nilkamal.png" class="card-img">
+                            <p class="card-title">Hits of Nilkamal</p>
+                            <p class="card-info">Top hits song of nilkamal singh...</p>
+                        </div>
+                       
+                    </div>
+
+                    <h2>Featured Charts</h2>
+                    <div class="cards-container">
+                        <div class="card">
+                            <img src="./assets/card5img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card6img.jpeg" class="card-img">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks...</p>
+                        </div>
+                        <div class="card">
+                            <img src="./assets/card1img (1).jpeg" class="card-img">
+                            <p class="card-title">Top 50 - Global</p>
+                            <p class="card-info">Your daily updates of the most played tracks...</p>
+                        </div>
+                    </div>
+
+                   <div class="footer">
+                    <div class="line"></div>
+                   </div>
+                
+             </div>
+             <div class="music-player">
+               <div class="album">
+                  <div class="album-list">
+                    <img src="./assets/album_picture (1).jpeg" class="album-control-list" id="f">
+                    <span class="day">Daylight
+                        <div class="dav">David kushner</div>
+                    </span>
+                    <img src="./assets/album_icon1 (2).png" class="album-control-list">
+                    <img src="./assets/album_icon2 (1).png" class="album-control-list">
+
+                  </div>
+               </div>
+               <div class="player">
+                 <div class="player-controls">
+                    <img src="./assets/player_icon1.png" class="player-control-icon">
+                    <img src="./assets/player_icon2.png" class="player-control-icon">
+                    <img src="./assets/player_icon3.png" class="player-control-icon" style="opacity: 1; height: 2rem;" id="onnimg">
+                    <img src="./assets/player_icon4 (1).png" class="player-control-icon">
+                    <img src="./assets/player_icon5 (1).png" class="player-control-icon">
+                 </div>
+                 <div class="playback-bar">
+                    <span class="curr-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="tot-time">4:03</span>
+                 </div>
+               </div>
+               <div class="controls">
+                <div class="controls-icon">
+                    <img src="./assets/controls_icon1 (1).png" class="control-icon" id="a">
+                    <img src="./assets/controld_icon2 (1).png" class="control-icon" id="b">
+                    <img src="./assets/controls_icon3 (2).png" class="control-icon" id="c">
+                    <img src="./assets/controls_icon4 (1).png" class="control-icon" id="d">
+                    <input type="range" min="0" max="100" class="rangge-bar" step="1">
+                    <img src="./assets/controls_icon5 (1).png" class="control-icon" id="e">
+                 </div>
+               </div>
+             </div>
+
+    </div>
+    
+</body>
+</html>
